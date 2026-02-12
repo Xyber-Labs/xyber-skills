@@ -1,0 +1,21 @@
+{
+  "name": "xyber-skills",
+  "owner": {
+    "name": "Xyber Inc"
+  },
+  "metadata": {
+    "description": "Xyber skills - tools for crypto payments, MCP testing, and Web3 integrations",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "web3-skills",
+      "description": "Collection of Web3 and crypto payment skills including x402 MCP caller for EVM networks",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/x402-mcp-caller"
+      ]
+    }
+  ]
+}
